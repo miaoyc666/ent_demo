@@ -13,3 +13,10 @@ https://entgo.io/docs/getting-started/
 6. run
 ```
 
+### 执行sql语句
+```bash 
+0. 需要引入sql/execquery特性
+1. 修改[generate.go], 添加--feature sql/execquery
+2. go generate ./ent
+3. run
+```
